@@ -1,13 +1,12 @@
 console.log("is it working")
-const menuBtn = document.getElementById("menu_btn");
-const menu = document.getElementById("menu");
-menuBtn.addEventListener("click", () => {
-    menu.classList.toggle("show");
+document.addEventListener("DOMContentLoaded", function () {
+    const menuBtn = document.getElementById("menu_btn");
+    const menu = document.getElementById("menu");
+        
+    menuBtn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+    });
 });
-
-
-document.getElementById("currentyear").textContent = new Date().getFullYear();
-document.getElementById("lastModified").textContent = "Last Updated :" + document.lastModified;
 
 const courses = [
     {
@@ -33,7 +32,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -45,7 +44,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -71,7 +70,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -85,6 +84,45 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     }
 ]
+
+function displayCourses(filteredCourses) {
+    const container = document.getElementById("course-list");
+    container.innerHTML = ""; // Clear previous content
+
+    let totalCredits = 0;
+
+    filteredCourses.forEach(course => {
+        const courseDiv = document.createElement("div");
+        courseDiv.classList.add("course");
+        courseDiv.textContent = `${course.subject} ${course.number}`;
+
+        if (course.completed) {
+            courseDiv.classList.add("completed"); // Highlight completed courses
+        }
+
+        totalCredits += course.credits;
+        container.appendChild(courseDiv);
+    });
+
+    // Display total credits
+    const totalCreditsDisplay = document.createElement("p");
+    totalCreditsDisplay.textContent = `Total Credits: ${totalCredits}`;
+    container.appendChild(totalCreditsDisplay);
+}
+
+// Function to filter courses
+function filterCourses(category) {
+    let filteredCourses;
+    if (category === "all") {
+        filteredCourses = courses;
+    } else {
+        filteredCourses = courses.filter(course => course.subject === category);
+    }
+    displayCourses(filteredCourses);
+}
+
+// Load all courses initially
+document.addEventListener("DOMContentLoaded", () => displayCourses(courses));

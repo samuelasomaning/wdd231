@@ -17,7 +17,9 @@ font-size: 1.5rem;
 }
 h2{
     border-radius: 10px;
-    background-color: #007bff;
+    background-color: #b3b6b9;
+    margin-top: auto;
+    
 }
 .profile-pic{
     padding: 10px;
@@ -53,21 +55,41 @@ nav button{
     border: none;
 }
 main {
+    display: grid;
+    gap: 40px;
+    padding: 10px;
+}
+section{
+    display: grid;
+    grid-template-columns: auto;
     padding: 20px;
+    border-radius: 8px;
+    background: #f4f4f4;
+    box-shadow: solid;
+}
+.course-filter{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    
 }
 .course-filter button {
-    margin: 5px;
-    padding: 5px 10px;
+    margin: 0.5rem;
+    padding: 10px 20px;
     border: none;
-    background: #007bff;
-    color: white;
+    color: rgb(37, 148, 129);
     cursor: pointer;
+    background-color: #d6cddf;
 }
 #course-list {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    padding: 10px 30px;
+    justify-content: center;
     gap: 10px;
-    margin-top: 10px
+    margin-top: 10px;
+    
 }
 @media (max-width: 600px){
     nav {

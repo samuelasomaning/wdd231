@@ -1,5 +1,8 @@
-document.getElementById("menu-toggle").addEventListener("click", function() {
-    document.getElementById("menu").classList.toggle("show");
+console.log("is it working")
+const menuBtn = document.getElementById("menu_btn");
+const menu = document.getElementById("menu");
+menuBtn.addEventListener("click", () => {
+    menu.classList.toggle("show");
 });
 
 

@@ -2,11 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/course.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wdd231</title>
+    <title>Document</title>
+    <script src="scripts/index.js" defer></script>
 </head>
 <body>
-    <h1>wdd231- Samuel Asomaning</h1>
-    
+    <header>
+        <img src="images/profile.jpg" alt="profile-pic" class="profile-pic">
+        <span>Samuel Asomaning</span>
+    </header>
+
+    <nav>
+        <button id="menu_btn">☰ Menu</button>
+        <ul id="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Chamber</a></li>
+            <li><a href="">GitHub Priofile</a></li>
+            <li><a href="">Linkdin</a></li>        
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+        <section id="courses">
+            <h2>Course Work</h2>
+            <li></li>
+            <li></li>
+            <li></li>
+        </section>
+        <section>
+            <h2>Aburi, Ghana</h2>
+            <img src="images/aburi_mountain.jpg" alt="mountains">
+        </section>
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="course-filter">
+                <button>All</button>
+                <button>WDD</button>
+                <button>CSE</button>
+            </div>
+            <div id="course-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🌸 Samuel Asomaning 🌸 Ghana <img src="images/flag.png"></p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>

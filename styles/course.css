@@ -1,0 +1,96 @@
+body{
+margin: 0;
+padding: 0;
+text-align: center;
+}
+header{
+background-color: rgb(208, 221, 217);
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 15px;
+font-weight: 200;
+font-size: 1.5rem;
+}
+.profile-pic{
+    padding: 10px;
+}
+nav{
+background-color: aliceblue;
+}
+nav ul{
+list-style-type: none;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+nav li{
+padding: 10px 20px;
+}
+nav a{
+    color: rgb(32, 118, 158);
+    text-decoration: none;
+}
+nav button{
+    display: non; /* hides in large screns */
+    border: none; 
+    padding: 10px;
+    color: black;
+    background: rgb(222, 235, 243);
+}
+#menu_btn {
+    font-size: 1.5rem;
+    display: block;
+    margin: 10px;
+    background: none;
+    border: none;
+}
+main {
+    padding: 20px;
+}
+.course-filter button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+#course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px
+}
+@media (max-width: 600px){
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        padding: 15px;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    #course-list {
+        justify-content: center;
+    }
+
+    .course {
+        width: 200px;
+    }
+}
+footer{
+    background-color: rgb(60, 243, 219);
+    padding: 10px;
+    margin-top: 25px;
+}

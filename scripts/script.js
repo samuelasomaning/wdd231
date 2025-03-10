@@ -1,16 +1,21 @@
-console.log("is it working")
+
 document.addEventListener("DOMContentLoaded", function () {
     const menuBtn = document.getElementById("menu_btn");
     const menu = document.getElementById("menu");
         
     menuBtn.addEventListener("click", () => {
         menu.classList.toggle("active");
-    });
-});
 
-document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
-    document.getElementById("lastModified").innerHTML = "Last Updated: ${document.lastModified}";
+        if (menu.classList.contains("active")) {
+            menu.style.display = "flex";
+
+        } else {
+            menu.style.display = "none";
+        }
+    });
+
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+    document.getElementById("lastModified").textContent = `Last Updated: ${document.lastModified}`;
 });
 
 const courses = [

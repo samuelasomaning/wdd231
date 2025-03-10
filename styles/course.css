@@ -19,7 +19,7 @@ font-size: 1.5rem;
 h2{
     border-radius: 10px;
     background-color: #b3b6b9;
-    margin-top: auto;
+    text-align: center;
     
 }
 .profile-pic{
@@ -47,6 +47,9 @@ padding: 0;
 display: flex;
 justify-content: center;
 }
+nav ul.active{
+    display: flex;
+}
 nav li{
 padding: 10px 20px;
 }
@@ -65,11 +68,12 @@ nav button{
     background: rgb(222, 235, 243);
 }
 #menu_btn {
-    display: none;
+    display: block;
     background: none;
-    color: white;
+    border: none;
     font-size: 24px;
     cursor: pointer;
+    margin: 10px;
 }
 /*mian {
     display: grid;
@@ -148,15 +152,25 @@ footer{
     margin-top: 25px;
 }
 @media (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
     nav ul {
         display: none;
         flex-direction: column;
         text-align: center;
         width: 100%;
     }
-    #menu_btn {
-        display: block;
+    nav ul.active{
+        display: flex;
+        flex-direction: column;
+        background: aliceblue;
         position: absolute;
-        left: 20px;
+        top: 50px;
+        width: 100%;
+    }
+    nav li {
+        padding: 15px;
     }
 }

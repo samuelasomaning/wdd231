@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("currentYear").textContent = new Date().getFullYear();
-    document.getElementById("lastModified").textContent = "Last Updated: ${document.lastModified}";
+    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    document.getElementById("lastModified").innerHTML = "Last Updated: ${document.lastModified}";
 });
 
 const courses = [

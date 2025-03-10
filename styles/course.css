@@ -137,7 +137,6 @@ location img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    justify-items: space-evenly;
     gap: 10px;
     flex-wrap: wrap;
 }

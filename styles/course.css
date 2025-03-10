@@ -7,11 +7,12 @@ box-sizing: border-box;
 }
 header{
 background-color: rgb(208, 221, 217);
-padding: 10px;
+padding: 15px;
 display: flex;
 align-items: center;
 justify-content: center;
 padding: 15px;
+gap: 10px;
 font-weight: 200;
 font-size: 1.5rem;
 }
@@ -27,9 +28,12 @@ h2{
     border-radius: 50%;
 }
 .box{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
 }
 nav{
 background-color: aliceblue;
@@ -93,6 +97,11 @@ section{
 location img{
     width: 100%;
     border-radius: 5px;
+    justify-content: center;
+    
+}
+.mount{
+    text-align: center;
 }
 #cert{
     text-align: center;
@@ -122,20 +131,15 @@ location img{
 }
 #course-list {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    padding: 10px 30px;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    justify-items: space-evenly;
     gap: 10px;
-    margin-top: 10px;
-    
+    flex-wrap: wrap;
 }
-    #course-list {
-        justify-content: center;
-    }
-
-    .course {
-        width: 200px;
-    }
+.course {
+    width: 200px;
+}
 
 footer{
     background-color: rgb(60, 243, 219);
@@ -144,22 +148,12 @@ footer{
     margin-top: 25px;
 }
 @media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
     nav ul {
         display: none;
         flex-direction: column;
         text-align: center;
         width: 100%;
     }
-
-    nav ul li {
-        margin: 10px;
-    }
-
     #menu_btn {
         display: block;
         position: absolute;

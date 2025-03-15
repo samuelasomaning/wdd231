@@ -1,0 +1,68 @@
+{
+    "members": [
+        {
+            "name": "Abio OTC Shop",
+            "address": "Aburi, Domeabra",
+            "phone": "+233 243 177283",
+            "website": "https://abiootc.org",
+            "image": "images/akpatsukpa.jpg",
+            "membership": 2
+        },
+        {
+            "name": "Akpatsupa Restaurant",
+            "address": "Hospital Road",
+            "phone": "+233 243 747534",
+            "website": "https://akpatsukpafd.org",
+            "image": "images/akpatsukpa.jpg",
+            "membership": 7
+        },
+        {
+            "name": "Golden Dream",
+            "address": "Aburi, Roundabout",
+            "phone": "+233 240 345656",
+            "website": "https://goldendream.org",
+            "image": "images/golden.jpg",
+            "membership": 6
+        },
+        {
+            "name": "Abekah Electrical Company",
+            "address": "Aburi-Kitase",
+            "phone": "+233 244 970056",
+            "website": "https://abk.com",
+            "image": "images/abekah.jpg",
+            "membership": 2
+        },
+        {
+            "name": "Ankra Art Shop",
+            "address": "Aburi, Y-Junction",
+            "phone": "+233 240 457823",
+            "website": "https://ankart.com",
+            "image": "images/ankra.jpg",
+            "membership": 4
+        },
+        {
+            "name": "Rita's Fast Food Joint",
+            "address": "Ahwerase First Junction",
+            "phone": "+233 243 878043",
+            "website": "https://rfastfood.org",
+            "image": "images/rita.jpg",
+            "membership": 2
+        },
+        {
+            "name": "Little Acre Guest House",
+            "address": "French-Line",
+            "phone": "+233 540 008594",
+            "website": "https://acrequest.com",
+            "image": "images/acre.jpg",
+            "membership": 2
+        },
+        {
+            "name": "YMS Pixel",
+            "address": "Adenta 1st Lane, Accra",
+            "phone": "+233 240 234300",
+            "website": "https://GHunlock.com",
+            "image": "images/ghunlock.jpg",
+            "membership": 2
+        }
+    ]
+}

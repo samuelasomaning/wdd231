@@ -139,6 +139,9 @@ footer{
         right: 10px;
         top: 50px;
     }
+    nav ul {
+        display: none;
+    }
     
     .view-toggle button {
         padding: 0.5rem;
@@ -150,22 +153,15 @@ footer{
         align-items: center;
         justify-content: center;
         cursor: pointer;
-    }
-    nav ul {
-        flex-direction: column;
-        align-items: end;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
         padding: 1rem;
-        position: absolute;
-        right: 10px;
-        top: 50px;
-        width: 100%;
-        display: none;
     }
+    
     nav ul.active {
         display: flex;
-        position: absolute;
-        top: 50px;
-        width: 100%;
+       
     }
    
     

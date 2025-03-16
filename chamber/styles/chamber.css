@@ -148,6 +148,6 @@ footer{
     }
 
     #menu_toggle {
-        display: none;
+        display: flex;
     }
 }

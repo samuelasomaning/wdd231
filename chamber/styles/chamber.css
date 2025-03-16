@@ -23,7 +23,7 @@ nav ul{
 }
 nav ul a {
     color: rgb(93, 100, 27);
-    font-weight: 1.5rem;
+    font-weight: bold;
 }
 nav ul.active {
     display: flex;

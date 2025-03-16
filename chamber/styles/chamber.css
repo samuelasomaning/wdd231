@@ -136,10 +136,6 @@ footer{
         right: 10px;
         top: 50px;
     }
-    .toggle {
-        text-align: center;
-        margin: 1rem;
-    }
     
     .view-toggle button {
         padding: 0.5rem;
@@ -148,5 +144,29 @@ footer{
     }
     #menu_toggle {
         display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
     }
+    nav ul {
+        flex-direction: column;
+        align-items: end;
+        padding: 1rem;
+        position: absolute;
+        right: 10px;
+        top: 50px;
+        width: 100%;
+        display: none;
+    }
+    nav ul.active {
+        display: flex;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+    .toggle {
+        text-align: center;
+        margin: 1rem;
+    }
+    
 }

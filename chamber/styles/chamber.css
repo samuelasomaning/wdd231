@@ -51,16 +51,6 @@ nav a{
     color: rgb(9, 253, 253);
     text-decoration: none;
 }
-.toggle {
-    text-align: center;
-    margin: 1rem;
-}
-
-.view-toggle button {
-    padding: 0.5rem;
-    margin: 0.5rem;
-    cursor: pointer;
-}
 #members-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -146,7 +136,16 @@ footer{
         right: 10px;
         top: 50px;
     }
-
+    .toggle {
+        text-align: center;
+        margin: 1rem;
+    }
+    
+    .view-toggle button {
+        padding: 0.5rem;
+        margin: 0.5rem;
+        cursor: pointer;
+    }
     #menu_toggle {
         display: flex;
     }

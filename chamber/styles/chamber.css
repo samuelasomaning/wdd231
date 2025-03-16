@@ -12,17 +12,17 @@ header{
     padding: 1rem;
 }
 nav ul{
-    list-style: none;
-    padding: 0;
-    display: none;
-    text-align: left;
-    flex-direction: column;
-    position: absolute;
-    right: 10px;
-    top: 50px;
-    width: 200px;
-    padding: 1rem;
-    border-radius: 5px;
+   list-style: none;
+   padding: 2.0rem;
+   text-align: left;
+   flex-direction: column;
+   position: absolute;
+   right: 10px;
+   top: 50px;
+}
+nav ul a {
+    color: rgb(93, 100, 27);
+    font-weight: 1.5rem;
 }
 nav ul.active {
     display: flex;
@@ -67,15 +67,16 @@ nav a{
     padding: 1rem;
 }
 #menu_toggle {
-display: block;
- background: none;
-border: none;
-font-size: 1.5rem;
-cursor: pointer;
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .card {
-    background: rgb(250, 242, 242);
+    background: rgb(189, 179, 179);
+    color: rgb(93, 100, 27);
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
@@ -134,10 +135,10 @@ footer{
     align-items: center;
     margin: 0;
     padding: 10px;
+    text-align: justify;
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     nav ul {
-        display: none;
         flex-direction: column;
         padding: 1rem;
         position: absolute;
@@ -146,6 +147,6 @@ footer{
     }
 
     #menu_toggle {
-        display: no;
+        display: none;
     }
 }

@@ -37,4 +37,11 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("members-container").classList.add("list");
     });
 
+    const menuToggle = document.getElementById("menu_toggle");
+    const navMenu = document.getElementById("nav_menu");
+
+    menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+    });
+
 });

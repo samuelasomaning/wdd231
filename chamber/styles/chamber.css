@@ -14,8 +14,18 @@ header{
 nav ul{
     list-style: none;
     padding: 0;
-    display: non;
-    text-align: center;
+    display: none;
+    text-align: left;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+nav ul.active {
+    display: flex;
 }
 nav ul li{
     display: inline;
@@ -55,6 +65,13 @@ nav a{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
     padding: 1rem;
+}
+#menu_toggle {
+display: block;
+ background: none;
+border: none;
+font-size: 1.5rem;
+cursor: pointer;
 }
 
 .card {
@@ -111,6 +128,13 @@ footer{
     padding: 1rem;
     background-color: rgb(100, 180, 180);
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
 @media (min-width: 600px) {
     nav ul {
         display: none;
@@ -122,6 +146,6 @@ footer{
     }
 
     #menu_toggle {
-        display: none;
+        display: no;
     }
 }

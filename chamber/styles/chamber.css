@@ -1,4 +1,6 @@
 body {
+    font-family: "oswald", sans-serif;
+    font-weight: 300;
     margin: 0;
     padding: 0;
     background-color: rgb(190, 224, 247);

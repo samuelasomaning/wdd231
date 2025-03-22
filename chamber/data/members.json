@@ -5,7 +5,7 @@
             "address": "Aburi, Domeabra",
             "phone": "+233 243 177283",
             "website": "https://abiootc.org",
-            "image": "images/akpatsukpa.jpg",
+            "image": "images/abio-otc.webp",
             "membership": "Gold"
         },
         {
@@ -21,7 +21,7 @@
             "address": "Aburi, Roundabout",
             "phone": "+233 240 345656",
             "website": "https://goldendream.org",
-            "image": "images/golden.jpg",
+            "image": "images/golden-dream(1).webp",
             "membership": "Silver"
         },
         {
@@ -29,7 +29,7 @@
             "address": "Aburi-Kitase",
             "phone": "+233 244 970056",
             "website": "https://abk.com",
-            "image": "images/abekah.jpg",
+            "image": "images/abekah(1).webp",
             "membership": "Bronze"
         },
         {
@@ -37,7 +37,7 @@
             "address": "Aburi, Y-Junction",
             "phone": "+233 240 457823",
             "website": "https://ankart.com",
-            "image": "images/ankra.jpg",
+            "image": "images/ankras(1).webp",
             "membership": "Silver"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Ahwerase First Junction",
             "phone": "+233 243 878043",
             "website": "https://rfastfood.org",
-            "image": "images/rita.jpg",
+            "image": "images/rita(1).webp",
             "membership": "Bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address": "French-Line",
             "phone": "+233 540 008594",
             "website": "https://acrequest.com",
-            "image": "images/acre.jpg",
+            "image": "images/little-acre(1).webp",
             "membership": "Bronze"
         },
         {
@@ -61,7 +61,7 @@
             "address": "Adenta 1st Lane, Accra",
             "phone": "+233 240 234300",
             "website": "https://GHunlock.com",
-            "image": "images/yms.webp",
+            "image": "images/yms(1).webp",
             "membership": "Gold"
         }
     ]

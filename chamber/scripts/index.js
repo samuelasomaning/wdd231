@@ -58,9 +58,9 @@ function displaySpotlights(members) {
 
         card.innerHTML = `
             <h3>${member.name}</h3>
-            <p>${member.tagline}</p>
+            <p>${member.address}</p>
             <img src="${member.image}" alt="${member.name}" loading="lazy">
-            <p><strong>Email:</strong> <a href="mailto:${member.email}">${member.email}</a></p>
+            <p><strong>Membership Level:</strong> <a href="mailto:${member.membership}">${member.membership}</a></p>
             <p><strong>Phone:</strong> ${member.phone}</p>
             <p><strong>Website:</strong> <a href="${member.website}" target="_blank">${member.website}</a></p>
         `;

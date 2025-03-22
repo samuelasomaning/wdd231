@@ -6,7 +6,7 @@
             "phone": "+233 243 177283",
             "website": "https://abiootc.org",
             "image": "images/akpatsukpa.jpg",
-            "membership": 2
+            "membership": "Gold"
         },
         {
             "name": "Akpatsupa Restaurant",
@@ -14,7 +14,7 @@
             "phone": "+233 243 747534",
             "website": "https://akpatsukpafd.org",
             "image": "images/akpatsukpa.jpg",
-            "membership": 7
+            "membership": "Gold"
         },
         {
             "name": "Golden Dream",
@@ -22,7 +22,7 @@
             "phone": "+233 240 345656",
             "website": "https://goldendream.org",
             "image": "images/golden.jpg",
-            "membership": 6
+            "membership": "Silver"
         },
         {
             "name": "Abekah Electrical Company",
@@ -30,7 +30,7 @@
             "phone": "+233 244 970056",
             "website": "https://abk.com",
             "image": "images/abekah.jpg",
-            "membership": 2
+            "membership": "Bronze"
         },
         {
             "name": "Ankra Art Shop",
@@ -38,7 +38,7 @@
             "phone": "+233 240 457823",
             "website": "https://ankart.com",
             "image": "images/ankra.jpg",
-            "membership": 4
+            "membership": "Silver"
         },
         {
             "name": "Rita's Fast Food Joint",
@@ -46,7 +46,7 @@
             "phone": "+233 243 878043",
             "website": "https://rfastfood.org",
             "image": "images/rita.jpg",
-            "membership": 2
+            "membership": "Bronze"
         },
         {
             "name": "Little Acre Guest House",
@@ -54,15 +54,15 @@
             "phone": "+233 540 008594",
             "website": "https://acrequest.com",
             "image": "images/acre.jpg",
-            "membership": 2
+            "membership": "Bronze"
         },
         {
             "name": "YMS Pixel",
             "address": "Adenta 1st Lane, Accra",
             "phone": "+233 240 234300",
             "website": "https://GHunlock.com",
-            "image": "images/ghunlock.jpg",
-            "membership": 2
+            "image": "images/yms.webp",
+            "membership": "Gold"
         }
     ]
 }

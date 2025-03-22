@@ -26,10 +26,6 @@ async function fetchWeather() {
 document.addEventListener("DOMContentLoaded", fetchWeather);
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    loadSpotlights();
-});
-
 async function fetchSpotlights() {
     try {
         const response = await fetch("data/members.json"); 

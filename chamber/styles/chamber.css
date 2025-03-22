@@ -3,13 +3,13 @@ body {
     font-weight: 300;
     margin: 0;
     padding: 0;
-    background-color: rgb(190, 224, 247);
+    background-color: rgb(230, 245, 255);
 }
 header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(134, 134, 230);
-    color: rgb(17, 24, 1);
+    background-color: rgb(57, 57, 155);
+    color: white;
     text-align: center;
     padding: 1rem;
 }
@@ -24,7 +24,7 @@ nav ul{
    top: 50px;
 }
 nav ul a {
-    color: rgb(93, 100, 27);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 nav ul.active {
@@ -43,14 +43,15 @@ nav ul li{
     font-size: 1.5rem;
     margin: 0;
     font-weight: bold;
+    color: white;
 }
 .logo p {
     font-size: 0.9rem;
-    color: #555;
+    color:#ddd;
     margin: 0;
 }
 nav a{
-    color: rgb(9, 253, 253);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 #members-container {
@@ -69,7 +70,7 @@ nav a{
 
 .card {
     background: rgb(189, 179, 179);
-    color: rgb(93, 100, 27);
+    color: rgb(33, 37, 41);
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
@@ -123,7 +124,7 @@ nav a{
 footer{
     text-align: center;
     padding: 1rem;
-    background-color: rgb(100, 180, 180);
+    background-color: rgb(47, 100, 100);
 }
 .footer {
     display: flex;
@@ -132,41 +133,6 @@ footer{
     margin: 0;
     padding: 10px;
     text-align: justify;
-}
-@media (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-        padding: 1rem;
-        position: absolute;
-        right: 10px;
-        top: 50px;
-    }
-    nav ul {
-        display: none;
-    }
-    
-    .view-toggle button {
-        padding: 0.5rem;
-        margin: 0.5rem;
-        cursor: pointer;
-    }
-    #menu_toggle {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        background: none;
-        border: none;
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
-    
-    nav ul.active {
-        display: flex;
-       
-    }
-   
-    
 }
 /* index css */
 .info-section {
@@ -206,4 +172,53 @@ footer{
     object-fit: cover;
     border-radius: 5px;
     margin: 10px 0;
+}
+
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        padding: 1rem;
+        position: absolute;
+        right: 10px;
+        top: 50px;
+    }
+    nav ul {
+        display: none;
+    }
+    
+    .view-toggle button {
+        padding: 0.5rem;
+        margin: 0.5rem;
+        cursor: pointer;
+    }
+    #menu_toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    
+    nav ul.active {
+        display: flex;
+       
+    }
+    /* index css*/
+    .info-section {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 10px;
+    }
+    .spot-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .spotlight-card {
+        width: 90%;
+    }
+    
 }

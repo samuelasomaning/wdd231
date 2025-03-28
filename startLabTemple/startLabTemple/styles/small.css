@@ -1,0 +1,9 @@
+*{box-sizing: border-box;}
+
+#mydialog div {
+    display: grid;
+    grid-template-columns: auto 44px;
+    padding: 5px;
+    border-bottom: aquamarine 1px solid;
+}
+

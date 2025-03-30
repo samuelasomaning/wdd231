@@ -1,33 +1,35 @@
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("lastModified").textContent = document.lastModified;
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     // Retrieve URL parameters
-    const params = new URLSearchParams(window.location.search);
+    const jioninfo = new URLSearchParams(window.location.search);
+    console.log(jioninfo);
     
     // Extract values
-    const firstName = params.get("first") || "Not provided";
-    const lastName = params.get("last") || "Not provided";
-    const email = params.get("email") || "Not provided";
-    const phone = params.get("phone") || "Not provided";
-    const businessName = params.get("Business name") || "Not provided";
-    const timestamp = params.get("timestamp") || "Not recorded";
-
-    console.log("First Name:", firstName);
-        console.log("Last Name:", lastName);
-        console.log("Email:", email);
-        console.log("Phone:", phone);
-        console.log("Business Name:", businessName);
-        console.log("Timestamp:", timestamp);
+    jioninfo.get("first") || "Not provided";
+    jioninfo.get("last") || "Not provided";
+    jioninfo.get("email") || "Not provided";
+    jioninfo.get("phone") || "Not provided";
+    jioninfo.get("Business name") || "Not provided";
+    jioninfo.get("timestamp") || "Not recorded";
     
     // Display form details
-    const formDetails = document.querySelector("#form-details");
-    formDetails.innerHTML = `
-        <p><strong>First Name:</strong> ${firstName}</p>
-        <p><strong>Last Name:</strong> ${lastName}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Cell Phone:</strong> ${phone}</p>
-        <p><strong>Business Name:</strong> ${businessName}</p>
-        <p><strong>Submission Time:</strong> ${timestamp}</p>
-    `;
+    document.getElementById("details").innerHTML = `
+    <p><strong>First Name:</strong> ${jioninfo.get("first")}</p>
+    <p><strong>Last Name:</strong> ${jioninfo.get("last")}</p>
+    <p><strong>Email:</strong> ${jioninfo.get("email")}</p>
+    <p><strong>Cell Phone:</strong> ${jioninfo.get("phone")}</p>
+    <p><strong>Business Name:</strong> ${jioninfo.get("Organisation")}</p>
+    <p><strong>Submission Time:</strong> ${jioninfo.get("timestamp")}</p>
+    `
+
+    const timestampField = document.getElementById("timestamp");
+    if (timestampField) {
+        timestampField.value = new Date().toISOString();
+    }
+
     
-    // Update footer year
-    document.getElementById("year").textContent = new Date().getFullYear();
 });

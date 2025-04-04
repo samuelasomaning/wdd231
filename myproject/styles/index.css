@@ -13,9 +13,9 @@ main{
 h1, h2, h3{
     font-family: 'Roboto' sans-serif;
 }
-section, .wirefame{
+section{
     border-radius: 8px;
-    background: #f3f6f8;
+    background: #e5ebf0;
     margin: 1rem;
     padding: 1rem;
 }
@@ -26,13 +26,22 @@ section, .wirefame{
     padding: 0;
     width: 100%;
 }
-button {
-    background: #0077cc;
+.sub-button {
+   display: flex;
+   justify-content: center;
+   margin: 2rem 0;
+}
+button{
+    background-color: #0077cc;
     color: white;
     border: none;
-    padding: 10px 15px;
-    font-size: 16px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
     cursor: pointer;
-    border-radius: 5px;
-    margin: 0;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #aeafaa;
+    color: rgb(6, 38, 80);
 }

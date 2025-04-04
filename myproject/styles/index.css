@@ -5,12 +5,26 @@ body{
     padding: 0;
     background-color: #f2e9fa;
 }
+main{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+}
 h1, h2, h3{
     font-family: 'Roboto' sans-serif;
 }
-.wireframe img{
-    display: block;
+section, .wirefame{
+    border-radius: 8px;
+    background: #f3f6f8;
+    margin: 1rem;
+    padding: 1rem;
+}
+.wireframe-images{
+    display: flex;
     margin:  10px 0;
+    gap: 30px;
+    padding: 0;
+    width: 100%;
 }
 button {
     background: #0077cc;

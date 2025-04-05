@@ -1,37 +1,52 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-    color: rgb(3, 115, 129);
+    color: #037381;
     margin: 0;
     padding: 0;
     background-color: #f2e9fa;
 }
-main{
+
+main {
     max-width: 960px;
     margin: 0 auto;
     padding: 1rem;
 }
-h1, h2, h3{
-    font-family: 'Roboto' sans-serif;
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
 }
-section{
+
+section {
     border-radius: 8px;
     background: #e5ebf0;
-    margin: 1rem;
+    margin: 1rem 0;
     padding: 1rem;
 }
-.wireframe-images{
+
+.wireframe-images {
     display: flex;
-    margin:  10px 0;
-    gap: 30px;
-    padding: 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.wireframe-images div {
+    flex: 1 1 45%;
+}
+
+img {
     width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
+
 .sub-button {
-   display: flex;
-   justify-content: center;
-   margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
 }
-button{
+
+button {
     background-color: #0077cc;
     color: white;
     border: none;
@@ -41,7 +56,8 @@ button{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-button:hover{
+
+button:hover {
     background-color: #aeafaa;
-    color: rgb(6, 38, 80);
+    color: #062650;
 }

@@ -173,6 +173,45 @@ footer{
     border-radius: 5px;
     margin: 10px 0;
 }
+/* dicover */
+.grid-container{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+.grid-container article {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+figure img:hover {
+    transform: scale(1.05);
+}
+@media (min-width: 320px) and (max-width: 640px) {
+    .grid-container {
+        grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6" "item7" "item8";
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .grid-container {
+        grid-template-areas: "item1 item2" "item3 item4" "item5 item6" "item7 item8";
+    }
+}
+
+@media (min-width: 1025px) {
+    .grid-container {
+        grid-template-areas: "item1 item2 item3 item4" "item5 item6 item7 item8";
+    }
+}
 
 
 @media (max-width: 600px) {

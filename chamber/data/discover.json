@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "name": "Kwahu Plateau",
+            "image": "images/items/kwahu_plateau.webp",
+            "address": "Kwahu-Mountains, Ghana",
+            "description": "A 260 km (160 mi) long plateau in southern Ghana."
+        },
+        {
+            "name": "Akosombo Dam",
+            "image": "images/items/akosombo_tour.webp",
+            "address": "shai-road, Eastern, Ghana",
+            "description": " A hydroelectric dam on the Volta River in southeastern Ghana."
+        },
+        {
+            "name": "Aburi Gardens",
+            "image": "images/items/aburi_gardens.webp",
+            "address": "Aburi, Eastern, Ghana",
+            "description": "a garden with a documented collection of living plants for the purpose of scientific research, conservation, display, and education."
+        },
+        {
+            "name": "Boti Falls",
+            "image": "images/items/boti_falls.webp",
+            "address": "Yilo-Krobo, Eastern, Ghana",
+            "description": "Boti Falls is a testament to Ghana's enchanting beauty and eco-diversity with its cascading waters, lush green surroundings, and serene ambiance."
+        },
+        {
+            "name": "Aburi Quad Biking",
+            "image": "images/items/aburi_quadbiking.webp",
+            "address": "aburi-ahwerase, Ghana",
+            "description": "Delivers you a once in a lifetime guided quad biking experience around the Aburi mountains."
+        },
+        {
+            "name": "Craft Village",
+            "image": "images/items/aburi_craftvillage.webp",
+            "address": "Aburi Y-Junction, Ghana",
+            "description": "This popular spot is a treasure trove of unique crafts and local artwork"
+        },
+        {
+            "name": "Akuapem Tour",
+            "image": "images/items/akuapem_tour.webp",
+            "address": "Obosomase-Akuapem, Ghana",
+            "description": "A serene location for nature lovers, featuring rope courses and a lake."
+        },
+        {
+            "name": "Little Acre",
+            "image": "images/items/little-acre.webp",
+            "address": "Aburi-Frenchline, Ghana",
+            "description": "It is a serene hotel complex snugly tucked away in the Eastern region,Aburi."
+        }
+    ]
+}

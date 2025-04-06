@@ -9,7 +9,7 @@ async function loadItems() {
     items.forEach((item) => {
         // Create card wrapper
         const theCard = document.createElement("div");
-        theCard.classList.add("card"); // Add a class for styling
+        theCard.classList.add("cards"); // Add a class for styling
 
         // Create and add image
         const thePhoto = document.createElement("img");

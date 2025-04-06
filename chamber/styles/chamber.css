@@ -271,7 +271,7 @@ footer{
     width: 100%;
     max-height: 150px; /* Limit image height for consistency */
     object-fit: cove; /* Ensure images fill the space without distortion */
-    border-radius: 4px;
+    border-radius: 8px;
     transition: transform 0.3s ease;
 }
 

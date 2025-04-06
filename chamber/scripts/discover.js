@@ -1,6 +1,32 @@
 // discover.js
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("lastModified").textContent = document.lastModified;
 
-async function loadItems() {
+    displayVisitMessage();
+    loadItems();
+});
+
+function displayVisitMessage() {
+    const now = Date.now();
+    const lastVisit = localStorage.getItem("lastVisit");
+    const messageArea = document.getElementById("visitor-message");
+
+    if (!lastVisit) {
+        messageArea.textContent = "Welcome! Let us know if you have any questions.";
+    } else {
+        const daysDifference = Math.floor((now - lastVisit) / (1000 * 60 * 60 * 24));
+        if (daysDifference < 1) {
+            messageArea.textContent = "Back so soon! Awesome!";
+        } else {
+            messageArea.textContent = `You last visited ${daysDifference} day${daysDifference === 1 ? "" : "s"} ago.`;
+        }
+    }
+
+    localStorage.setItem("lastVisit", now);
+}
+
+    async function loadItems() {
     const response = await fetch("data/discover.json");
     const data = await response.json();
     const items = data.items;
@@ -43,4 +69,4 @@ async function loadItems() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", loadItems);
+//document.addEventListener("DOMContentLoaded", loadItems);

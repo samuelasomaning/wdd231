@@ -68,5 +68,3 @@ function displayVisitMessage() {
         container.appendChild(theCard);
     });
 }
-
-//document.addEventListener("DOMContentLoaded", loadItems);

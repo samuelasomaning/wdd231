@@ -41,6 +41,7 @@ function displayVisitMessage() {
         const thePhoto = document.createElement("img");
         thePhoto.src = item.image;
         thePhoto.alt = item.name;
+        thePhoto.loading = "lazy";
         theCard.appendChild(thePhoto);
 
         // Title

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tech reviews and gadget news." />
+  <title>Gadget Pulse | Home</title>
+  <link rel="stylesheet" href="styles/gadget.css" />
+
+  <link rel="icon" href="images/gadget-ico.webp" type="image/x-icon">
+
+    <meta property="og:title" content="Akuapem Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://samuelasomaning.github.io/wdd231/gadget-pulse/images/gadget-hero(1)">
+    <meta property="og:url" content="https://samuelasomaning.github.io/wdd231/gadget-pulse/index.html">
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="images/gadget-icon.webp" alt="Site Icon" class="nav-icon">
+      <div class="logo">Gadget Pulse</div>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="form.html">Submit</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/gadget-hero (1).webp" alt="Featured Gadget" class="hero-image" />
+    </section>
+    <section class="pulse">
+      <h1>Welcome to Gadget Pulse</h1>
+      <p>Your source for honest reviews and tech news.</p>
+    </section>
+
+    <section class="gadget-list">
+      <h2>Featured Gadgets</h2>
+      <div id="gadgetContainer" class="gadget-container"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-info">
+      <p>WDD231 Personal Project</p>
+      <p>Samuel Asomaning</p>
+    </div>
+  
+    <div class="footer-social">
+      <a href="https://linkedin.com" target="_blank" rel="noopener">
+        <img src="images/linkedin.png" alt="LinkedIn Icon" class="social-icon">
+      </a>
+    </div>
+  
+    <div class="footer-meta">
+      <p>&copy; <span id="year"></span> Gadget Pulse | Last updated: <span id="lastModified"></span></p>
+    </div>
+  </footer>
+  
+  <script type="module" src="scripts/main.js" defer></script>
+</body>
+</html>

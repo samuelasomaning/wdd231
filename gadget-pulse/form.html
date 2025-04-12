@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tech reviews and gadget news." />
+  <title>Gadget Pulse | Home</title>
+  <link rel="stylesheet" href="styles/gadget.css" />
+
+  <link rel="icon" href="images/gadget-ico.webp" type="image/x-icon">
+
+    <meta property="og:title" content="Akuapem Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://samuelasomaning.github.io/wdd231/gadget-pulse/images/gadget-hero(1)">
+    <meta property="og:url" content="https://samuelasomaning.github.io/wdd231/gadget-pulse/index.html">
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="images/gadget-icon.webp" alt="Site Icon" class="nav-icon">
+      <div class="logo">Gadget Pulse</div>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="form.html">Submit</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h1>Submit Your Gadget</h1>
+      <form action="form-action.html" method="get">
+        <label for="name">Gadget Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <button type="submit">Submit Gadget</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Gadget Pulse | Last updated: <span id="lastModified"></span></p>
+  </footer>
+  <script type="module" src="scripts/main.js" defer></script>
+</body>
+</html>

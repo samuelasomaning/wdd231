@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Smartwatch 3000",
+    "image": "images/watches.webp",
+    "description": "Track fitness, calls, and more with this cutting-edge wearable."
+  },
+  {
+    "id": 2,
+    "name": "Smartphone X Ultra",
+    "image": "images/phone.webp",
+    "description": "Lightning-fast performance, stunning photography, and 5G connectivity."
+  },
+  {
+    "id": 3,
+    "name": "Laptop Pro 15",
+    "image": "images/laptop.webp",
+    "description": "High-speed processor, crisp display, and all-day battery life."
+  },
+  {
+    "id": 4,
+    "name": "Noise-Canceling Earbuds",
+    "image": "images/earbuds.webp",
+    "description": "Block out noise with immersive sound and wireless freedom."
+  },
+  {
+    "id": 5,
+    "name": "Smart Home Hub",
+    "image": "images/hub.webp",
+    "description": "Control your devices with voice or app for home automation."
+  }
+]

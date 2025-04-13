@@ -46,23 +46,31 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-info">
-      <p>WDD231 Personal Project</p>
-      <p>Samuel Asomaning</p>
-    </div>
-  
-    <div class="footer-social">
-      <a href="https://linkedin.com" target="_blank" rel="noopener">
-        <img src="images/linkedin.png" alt="LinkedIn Icon" class="social-icon">
-      </a>
-    </div>
-  
-    <div class="footer-meta">
-      <p>&copy; <span id="year"></span> Gadget Pulse | Last updated: <span id="lastModified"></span></p>
+  <footer>
+    <div class="site-footer">
+      <div class="footer-section">
+        <p><strong>Samuel Asomaning</strong></p>
+        <p>WDD 231 Personal Project</p>
+      </div>
+      <div class="footer-social">
+        <a href="#"><img src="images/twitter.png" alt="Twitter" class="social-icon"></a>
+        <a href="#"><img src="images/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+      </div>
+      <div class="footer-meta">
+        <p><strong>Final Project</strong></p>
+        <p>&copy; <span id="year"></span> Gadget Pulse. All rights reserved.</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+      </div>
     </div>
   </footer>
-  
   <script type="module" src="scripts/main.js" defer></script>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+  
 </body>
 </html>

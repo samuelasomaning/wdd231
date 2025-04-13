@@ -1,3 +1,4 @@
+// gadget-function //
 export async function fetchGadgets() {
   try {
     const response = await fetch('data/gadgets.json');
@@ -17,6 +18,7 @@ export function createGadgetCard(gadget, isHome = false) {
     <img src="${gadget.image}" alt="${gadget.name}" loading="lazy">
     <h3>${gadget.name}</h3>
     <p>${gadget.description}</p>
+    <button class="favorite-btn" data-id="${gadget.id}">❤️ Favorite</button>
     ${isHome ? '' : `<button class="view-more" data-id="${gadget.id}">View More</button>`}
   `;
 
